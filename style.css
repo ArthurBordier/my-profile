@@ -1,0 +1,100 @@
+/*color and fonts*/
+
+body{
+	background:rgb(230, 230, 230)  ;
+	color: black;
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+}
+
+h1{
+	color: rgb(175, 175, 175);
+	font-family: 'Dancing Script', cursive;
+	font-size: 65px;
+	letter-spacing: 6px;
+	font-weight: bold;
+
+
+}
+h2{
+	color: rgb(100, 100, 100);
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+	font-weight: 2000;
+}
+a{
+	font-family: 'Gloock', serif;
+	text-decoration: none;
+	color: blue;
+	font-weight: bolder;
+	transition: color 0.5s ease;
+}
+a:hover{
+	color: darkblue;
+}
+
+
+/*custom your design with class*/
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle{
+	width: 200px;
+	border-radius: 50%;
+}
+.btn-blue{
+	background: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 10px;
+}
+.btn-blue:hover{
+	background-color:darkslateblue;
+	color: white;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+
+}
+.list-inline i{
+	font-size: 50px;
+	color: rgb(200, 200, 200);
+}
+.list-inline i:hover{
+	color: rgb(50, 50, 50);
+}
+#introduction p {
+	margin-bottom: 40px;
+}
+ 
+@media (max-width: 960px){
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px){
+	.container{
+		width: 500px;
+	}
+}
+@media (max-width: 540px){
+	.container {
+		width: 300px;
+	}
+}
+
